@@ -33,11 +33,9 @@
 
 <script>
     // --- KONFIGURATION ---
-    // Hier deine Daten von Supabase einfügen!
-    const SUPABASE_URL = 'https://cjzrrvdcyqbgavqkfmjv.supabase.co';
+    const SUPABASE_URL = 'https://cjzrrvdcyqbgavqkfmjv.supabase.co'; // .co ist wichtig!
     const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNqenJydmRjeXFiZ2F2cWtmbWp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5MDcwMTcsImV4cCI6MjA4MzQ4MzAxN30.UquzNqUVLr0dCqiN7XxoB7hO7_Vsz2zbgcIgWskdVc4';
     
-    // Gruppe festlegen (könnte man später per Eingabe machen)
     const MY_GROUP = "Gruppe 1"; 
 
     // Supabase verbinden
@@ -46,99 +44,118 @@
 
     // --- KARTE INITIALISIEREN ---
     // Startpunkt Vals
-    var map = L.map('map').setView([46.843, 11.625], 16);
+    var map = L.map('map').setView([46.843, 11.625], 15);
 
-    // Südtirol BaseMap laden
-    //L.tileLayer('https://geoservices.buergernetz.bz.it/mapproxy/wmts/P_BZ_BASEMAP_COLOR/GLOBAL_WEBMERCATOR/{z}/{x}/{y}.png', {
-    //    attribution: 'Autonome Provinz Bozen',
-    //    maxZoom: 20
-    //}).addTo(map);
-    // Offizielle BaseMap Südtirol (funktioniert jetzt via HTTPS!)
-L.tileLayer('https://geoservices.buergernetz.bz.it/mapproxy/wmts/P_BZ_BASEMAP_COLOR/GLOBAL_WEBMERCATOR/{z}/{x}/{y}.png', {
-    maxZoom: 20,
-    attribution: '&copy; Autonome Provinz Bozen - Südtirol'
-}).addTo(map);
+    // 1. WICHTIG: Wir nutzen jetzt die STANDARD OSM Karte (die funktioniert immer!)
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
 
-    // Speicher für die Karten-Layer, damit wir die Farbe ändern können
+    // --- NEU: GPS "WO BIN ICH" BUTTON ---
+    // Wir bauen einen Knopf direkt auf die Karte
+    var gpsControl = L.Control.extend({
+        options: { position: 'topleft' },
+        onAdd: function (map) {
+            var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+            container.style.backgroundColor = 'white';
+            container.style.width = '30px';
+            container.style.height = '30px';
+            container.style.cursor = 'pointer';
+            container.innerHTML = '📍'; // Das Icon
+            container.style.fontSize = '20px';
+            container.style.textAlign = 'center';
+            container.style.lineHeight = '30px';
+            
+            container.onclick = function(){
+                map.locate({setView: true, maxZoom: 18});
+            }
+            return container;
+        }
+    });
+    map.addControl(new gpsControl());
+
+    // Wenn GPS Position gefunden wurde: Blauen Punkt malen
+    map.on('locationfound', function(e) {
+        var radius = e.accuracy / 2;
+        L.circle(e.latlng, radius).addTo(map);
+        L.circleMarker(e.latlng, {color: 'blue', fillColor: '#3388ff', fillOpacity: 1, radius: 5}).addTo(map)
+        .bindPopup("Ihr seid hier!").openPopup();
+    });
+
+    // Fehler abfangen (falls GPS aus ist)
+    map.on('locationerror', function(e) {
+        alert("GPS Fehler: " + e.message);
+    });
+
+    // --- HÄUSER LOGIK ---
     var houseLayers = {};
 
-    // --- FUNKTIONEN ---
-
-    // Farbe je nach Status
     function getColor(status) {
         switch(status) {
-            case 'green': return '#2ecc71'; // Grün (Erledigt)
-            case 'yellow': return '#f1c40f'; // Gelb (Gerade dort)
-            case 'red': return '#e74c3c'; // Rot (Abgewiesen)
-            case 'blue': return '#3498db'; // Blau (Später kommen)
-            default: return 'gray'; // Unbesucht
+            case 'green': return '#2ecc71'; 
+            case 'yellow': return '#f1c40f'; 
+            case 'red': return '#e74c3c'; 
+            case 'blue': return '#3498db'; 
+            default: return 'gray'; 
         }
     }
 
-    // Status speichern (In Datenbank senden)
-    async function setStatus(houseId, newStatus, comment) {
-        // 1. In Datenbank schreiben
+    async function setStatus(houseId, newStatus) {
+        // Optimistisch: Sofort Farbe ändern, damit es sich schnell anfühlt
+        updateMapColor(houseId, newStatus);
+
         const { error } = await db
             .from('visits')
             .upsert({ 
                 house_id: String(houseId), 
                 status: newStatus,
                 group_name: MY_GROUP,
-                created_at: new Date() // Zeitstempel aktualisieren
-            }, { onConflict: 'house_id' }); // Überschreibt alten Status, falls vorhanden
+                created_at: new Date() 
+            }, { onConflict: 'house_id' });
 
-        if (error) alert("Fehler beim Speichern: " + error.message);
-        
-        // Karte schließen
+        if (error) {
+            alert("Fehler beim Speichern: " + error.message);
+            // Wenn Fehler: Farbe zurücksetzen (Reload der Seite würde es auch fixen)
+        }
         map.closePopup();
     }
 
-    // --- DATEN LADEN ---
-
-    // 1. Häuser laden (lokale Datei)
+    // Daten laden
     fetch('vals.json')
         .then(res => res.json())
         .then(data => {
             L.geoJSON(data, {
                 pointToLayer: function (feature, latlng) {
-                    var id = feature.id; // Die eindeutige ID von OSM
+                    var id = feature.id;
                     var nr = feature.properties["addr:housenumber"] || "?";
                     
-                    // Kreis zeichnen
                     var marker = L.circleMarker(latlng, {
                         radius: 10,
-                        fillColor: 'gray', // Startfarbe
+                        fillColor: 'gray',
                         color: "#333",
                         weight: 1,
                         opacity: 1,
                         fillOpacity: 0.8
                     });
 
-                    // Nummer anzeigen
                     marker.bindTooltip(nr, { permanent: true, direction: "center", className: "haus-label" });
                     
-                    // Popup Interaktion
                     var popupContent = `
                         <b>Hausnr: ${nr}</b><br><br>
-                        <button onclick="setStatus('${id}', 'green')" style="background:#2ecc71;padding:10px;border:none;">✅ Fertig</button>
-                        <button onclick="setStatus('${id}', 'red')" style="background:#e74c3c;padding:10px;border:none;">❌ Nein</button><br><br>
-                        <button onclick="setStatus('${id}', 'blue')" style="background:#3498db;padding:10px;border:none;">🔵 Später</button>
-                        <button onclick="setStatus('${id}', 'yellow')" style="background:#f1c40f;padding:10px;border:none;">⏳ Sind dran</button>
+                        <button onclick="setStatus('${id}', 'green')" style="background:#2ecc71;padding:10px;border:none;cursor:pointer;">✅ Fertig</button>
+                        <button onclick="setStatus('${id}', 'red')" style="background:#e74c3c;padding:10px;border:none;cursor:pointer;">❌ Nein</button><br><br>
+                        <button onclick="setStatus('${id}', 'blue')" style="background:#3498db;padding:10px;border:none;cursor:pointer;">🔵 Später</button>
                     `;
                     marker.bindPopup(popupContent);
-
-                    // Marker speichern, damit wir ihn später färben können
                     houseLayers[id] = marker;
-                    
                     return marker;
                 }
             }).addTo(map);
 
-            // Wenn Häuser geladen sind -> Jetzt aktuellen Status aus DB holen
             loadInitialStatus();
         });
 
-    // 2. Bestehende Status aus DB laden (beim Start)
     async function loadInitialStatus() {
         let { data: visits, error } = await db.from('visits').select('*');
         if (visits) {
@@ -148,29 +165,20 @@ L.tileLayer('https://geoservices.buergernetz.bz.it/mapproxy/wmts/P_BZ_BASEMAP_CO
         }
     }
 
-    // 3. LIVE Updates (Realtime!)
+    // Live Updates
     db.channel('custom-all-channel')
-    .on(
-        'postgres_changes',
-        { event: '*', schema: 'public', table: 'visits' },
-        (payload) => {
-            // Wenn sich was ändert, Farbe sofort ändern
-            console.log('Update empfangen!', payload);
-            if (payload.new) {
-                updateMapColor(payload.new.house_id, payload.new.status);
-            }
+    .on('postgres_changes', { event: '*', schema: 'public', table: 'visits' }, (payload) => {
+        if (payload.new) {
+            updateMapColor(payload.new.house_id, payload.new.status);
         }
-    )
-    .subscribe();
+    }).subscribe();
 
-    // Hilfsfunktion: Farbe auf Karte ändern
     function updateMapColor(houseId, status) {
         var layer = houseLayers[houseId];
         if (layer) {
             layer.setStyle({ fillColor: getColor(status) });
         }
     }
-
 </script>
 </body>
 </html>
