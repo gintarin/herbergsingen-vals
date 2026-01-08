@@ -53,9 +53,10 @@
     //    attribution: 'Autonome Provinz Bozen',
     //    maxZoom: 20
     //}).addTo(map);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors'
+    // Offizielle BaseMap Südtirol (funktioniert jetzt via HTTPS!)
+L.tileLayer('https://geoservices.buergernetz.bz.it/mapproxy/wmts/P_BZ_BASEMAP_COLOR/GLOBAL_WEBMERCATOR/{z}/{x}/{y}.png', {
+    maxZoom: 20,
+    attribution: '&copy; Autonome Provinz Bozen - Südtirol'
 }).addTo(map);
 
     // Speicher für die Karten-Layer, damit wir die Farbe ändern können
