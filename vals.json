@@ -1,0 +1,6496 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-01-08T22:36:42Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97901950",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6213082,
+          46.85066
+        ]
+      },
+      "id": "way/97901950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98042886",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa",
+        "building": "apartments",
+        "building:levels": "2",
+        "roof:levels": "1",
+        "roof:shape": "gabled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6279936,
+          46.8387754
+        ]
+      },
+      "id": "way/98042886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98042904",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "23",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6257182,
+          46.8404984
+        ]
+      },
+      "id": "way/98042904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98042914",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "17",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6256978,
+          46.8399649
+        ]
+      },
+      "id": "way/98042914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98042915",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "66",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6255548,
+          46.8415919
+        ]
+      },
+      "id": "way/98042915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98042916",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "21",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6259244,
+          46.8401753
+        ]
+      },
+      "id": "way/98042916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98042923",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "25",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6255543,
+          46.8409334
+        ]
+      },
+      "id": "way/98042923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98042924",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-von-Hobe-Straße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6269859,
+          46.8398759
+        ]
+      },
+      "id": "way/98042924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98042937",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "22",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6262596,
+          46.8408319
+        ]
+      },
+      "id": "way/98042937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98064478",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6196294,
+          46.8555123
+        ]
+      },
+      "id": "way/98064478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98229635",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "42",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6243646,
+          46.8433837
+        ]
+      },
+      "id": "way/98229635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98229664",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "37",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6234875,
+          46.8440565
+        ]
+      },
+      "id": "way/98229664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98229725",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "30",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6253164,
+          46.8418841
+        ]
+      },
+      "id": "way/98229725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98229729",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "27",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6243881,
+          46.8419905
+        ]
+      },
+      "id": "way/98229729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98229740",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "29",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6247422,
+          46.8420085
+        ]
+      },
+      "id": "way/98229740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/98229756",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "33",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6240711,
+          46.8432417
+        ]
+      },
+      "id": "way/98229756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104529213",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6232347,
+          46.8488395
+        ]
+      },
+      "id": "way/104529213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104529215",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände",
+        "amenity": "fast_food",
+        "building": "yes",
+        "name": "Martin's Grilloase",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6223154,
+          46.8509901
+        ]
+      },
+      "id": "way/104529215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104529917",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6233701,
+          46.8469398
+        ]
+      },
+      "id": "way/104529917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104529921",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housename": "Gasserhof",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6229102,
+          46.8456746
+        ]
+      },
+      "id": "way/104529921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104529926",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6235772,
+          46.8469634
+        ]
+      },
+      "id": "way/104529926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104529932",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6231238,
+          46.8465014
+        ]
+      },
+      "id": "way/104529932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/446285924",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Grossbergstr.",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "ele": "1640",
+        "name": "Großberghütte",
+        "phone": "+39 0472 520 277",
+        "website": "https://www.grossberghuette.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6505952,
+          46.8411625
+        ]
+      },
+      "id": "node/446285924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/860926043",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa",
+        "name": "Familienhotel Huber",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.hotelhuber.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6274011,
+          46.8391142
+        ]
+      },
+      "id": "node/860926043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1082059861",
+        "access": "customers",
+        "addr:city": "Vals - Valles",
+        "addr:housenumber": "5a",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "dog": "leashed",
+        "fee": "yes",
+        "group_only": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "WiFi Naturcamping Laerchwiese",
+        "name": "Naturcamping Lärchwiese",
+        "phone": "+39 0472 694945",
+        "power_supply": "yes",
+        "sanitary_dump_station": "yes",
+        "shower": "yes",
+        "stars": "4",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.camping-laerchwiese.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6196597,
+          46.8493294
+        ]
+      },
+      "id": "way/1082059861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295854922",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "36",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "name": "Hotel Alpenrose",
+        "stars": "3",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.624914,
+          46.8423355
+        ]
+      },
+      "id": "node/1295854922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1404789882",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "alt_name": "Golmarket",
+        "name": "Market Oberhofer",
+        "opening_hours": "Mo-Fr 07:00-12:00,15:30-18:30; Sa 07:00-12:00,15:30-17:00;PH,Su off",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6266327,
+          46.839781
+        ]
+      },
+      "id": "node/1404789882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1404789883",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6265449,
+          46.8398221
+        ]
+      },
+      "id": "node/1404789883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1405623196",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "22",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße",
+        "name": "Residence Grünwald",
+        "stars": "3",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6262477,
+          46.8408361
+        ]
+      },
+      "id": "node/1405623196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886168",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6230508,
+          46.8501526
+        ]
+      },
+      "id": "node/2755886168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886193",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6264903,
+          46.8436048
+        ]
+      },
+      "id": "node/2755886193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886219",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Gaisjochweg - Via Gaisjoch",
+        "addr:street:de": "Gaisjochweg",
+        "addr:street:it": "Via Gaisjoch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6279326,
+          46.843289
+        ]
+      },
+      "id": "node/2755886219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886230",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6267999,
+          46.8388443
+        ]
+      },
+      "id": "node/2755886230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886232",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6268721,
+          46.8398464
+        ]
+      },
+      "id": "node/2755886232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886235",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6277645,
+          46.8420732
+        ]
+      },
+      "id": "node/2755886235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886243",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6259147,
+          46.8413322
+        ]
+      },
+      "id": "node/2755886243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886255",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck",
+        "name": "Sport Mode Maria",
+        "opening_hours": "Mo-Fr 08:30-12:00,15:00-18:30; Sa 08:30-12:00,13:00-17:30; Su 08:30-12:00,13:00-17:30",
+        "shop": "sports",
+        "website": "https://www.sportmodemaria.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6247385,
+          46.8432
+        ]
+      },
+      "id": "node/2755886255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886261",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6272601,
+          46.8430796
+        ]
+      },
+      "id": "node/2755886261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886262",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6274154,
+          46.8424847
+        ]
+      },
+      "id": "node/2755886262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886263",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "1",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6387699,
+          46.8226362
+        ]
+      },
+      "id": "node/2755886263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886272",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald",
+        "email": "info@hotel-moarhof.it",
+        "fax": "+39 0472 541207",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel Moarhof",
+        "operator": "Josef Mair",
+        "phone": "+39 0472 547194",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.hotel-moarhof.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6252449,
+          46.8505714
+        ]
+      },
+      "id": "node/2755886272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886274",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6266226,
+          46.8439594
+        ]
+      },
+      "id": "node/2755886274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886294",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Meransen - Maranza",
+        "addr:hamlet:de": "Meransen",
+        "addr:hamlet:it": "Maranza",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Großbergstraße - Via Grossberg",
+        "addr:street:de": "Großbergstraße",
+        "addr:street:it": "Via Grossberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6482477,
+          46.8212383
+        ]
+      },
+      "id": "node/2755886294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886316",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.618267,
+          46.8522177
+        ]
+      },
+      "id": "node/2755886316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886319",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6275736,
+          46.8402192
+        ]
+      },
+      "id": "node/2755886319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886320",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6294377,
+          46.842147
+        ]
+      },
+      "id": "node/2755886320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886330",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6272311,
+          46.8418513
+        ]
+      },
+      "id": "node/2755886330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886354",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6261138,
+          46.8426756
+        ]
+      },
+      "id": "node/2755886354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886357",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "10",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6358427,
+          46.8250925
+        ]
+      },
+      "id": "node/2755886357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886365",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.627732,
+          46.8479744
+        ]
+      },
+      "id": "node/2755886365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886369",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Meransen - Maranza",
+        "addr:hamlet:de": "Meransen",
+        "addr:hamlet:it": "Maranza",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Großbergstraße - Via Grossberg",
+        "addr:street:de": "Großbergstraße",
+        "addr:street:it": "Via Grossberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6505878,
+          46.8411133
+        ]
+      },
+      "id": "node/2755886369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886371",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6204699,
+          46.8583026
+        ]
+      },
+      "id": "node/2755886371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886374",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6200904,
+          46.8459696
+        ]
+      },
+      "id": "node/2755886374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886376",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6277441,
+          46.8399812
+        ]
+      },
+      "id": "node/2755886376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886377",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6294858,
+          46.8422791
+        ]
+      },
+      "id": "node/2755886377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886383",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6267711,
+          46.8417985
+        ]
+      },
+      "id": "node/2755886383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886389",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6251549,
+          46.8435133
+        ]
+      },
+      "id": "node/2755886389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886393",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6276467,
+          46.843033
+        ]
+      },
+      "id": "node/2755886393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886394",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6284545,
+          46.842472
+        ]
+      },
+      "id": "node/2755886394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886395",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "11",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6309635,
+          46.8313583
+        ]
+      },
+      "id": "node/2755886395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886400",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "12",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6276179,
+          46.8479418
+        ]
+      },
+      "id": "node/2755886400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886406",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "12",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6220417,
+          46.8575256
+        ]
+      },
+      "id": "node/2755886406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886410",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "12",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6265312,
+          46.8400364
+        ]
+      },
+      "id": "node/2755886410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886411",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "12",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6274861,
+          46.8402763
+        ]
+      },
+      "id": "node/2755886411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886412",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "12",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6292565,
+          46.842469
+        ]
+      },
+      "id": "node/2755886412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886418",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "12",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.627363,
+          46.8418483
+        ]
+      },
+      "id": "node/2755886418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886424",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "12",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6263446,
+          46.8425961
+        ]
+      },
+      "id": "node/2755886424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886426",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "12",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6360985,
+          46.8251359
+        ]
+      },
+      "id": "node/2755886426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886432",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6300276,
+          46.8470977
+        ]
+      },
+      "id": "node/2755886432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886435",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6198842,
+          46.8613263
+        ]
+      },
+      "id": "node/2755886435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886439",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6198342,
+          46.8505444
+        ]
+      },
+      "id": "node/2755886439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886441",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6264648,
+          46.8397166
+        ]
+      },
+      "id": "node/2755886441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886442",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6276942,
+          46.8399751
+        ]
+      },
+      "id": "node/2755886442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886443",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6291593,
+          46.8425405
+        ]
+      },
+      "id": "node/2755886443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886449",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6269319,
+          46.8418492
+        ]
+      },
+      "id": "node/2755886449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886455",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6258664,
+          46.8435595
+        ]
+      },
+      "id": "node/2755886455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886459",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6278115,
+          46.8429494
+        ]
+      },
+      "id": "node/2755886459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886460",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6284169,
+          46.8423976
+        ]
+      },
+      "id": "node/2755886460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886461",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "13",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6305742,
+          46.8326271
+        ]
+      },
+      "id": "node/2755886461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886470",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "14",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6231574,
+          46.8659483
+        ]
+      },
+      "id": "node/2755886470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886474",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "14",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6267958,
+          46.8402496
+        ]
+      },
+      "id": "node/2755886474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886475",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "14",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6273839,
+          46.8402408
+        ]
+      },
+      "id": "node/2755886475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886476",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "14",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6292939,
+          46.8426109
+        ]
+      },
+      "id": "node/2755886476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886478",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "14",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6275511,
+          46.8418075
+        ]
+      },
+      "id": "node/2755886478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886519",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "14",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6256923,
+          46.8430647
+        ]
+      },
+      "id": "node/2755886519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886533",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "14",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6369249,
+          46.8246614
+        ]
+      },
+      "id": "node/2755886533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886582",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6213292,
+          46.864263
+        ]
+      },
+      "id": "node/2755886582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886599",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6198785,
+          46.8507358
+        ]
+      },
+      "id": "node/2755886599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886607",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6262026,
+          46.8397749
+        ]
+      },
+      "id": "node/2755886607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886615",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6275541,
+          46.8400026
+        ]
+      },
+      "id": "node/2755886615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886624",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6293128,
+          46.8426072
+        ]
+      },
+      "id": "node/2755886624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886665",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.626914,
+          46.8419341
+        ]
+      },
+      "id": "node/2755886665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886737",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.625986,
+          46.8433807
+        ]
+      },
+      "id": "node/2755886737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886764",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6279502,
+          46.8429537
+        ]
+      },
+      "id": "node/2755886764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886765",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6283848,
+          46.8425436
+        ]
+      },
+      "id": "node/2755886765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886766",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6302188,
+          46.8325173
+        ]
+      },
+      "id": "node/2755886766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886809",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "16",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.62619,
+          46.840261
+        ]
+      },
+      "id": "node/2755886809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886810",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "16",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6271355,
+          46.8402671
+        ]
+      },
+      "id": "node/2755886810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886811",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "16",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6292653,
+          46.842705
+        ]
+      },
+      "id": "node/2755886811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886813",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "16",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6277177,
+          46.8418083
+        ]
+      },
+      "id": "node/2755886813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886818",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "16",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6260078,
+          46.8429953
+        ]
+      },
+      "id": "node/2755886818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886820",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "16",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.63625,
+          46.8262466
+        ]
+      },
+      "id": "node/2755886820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886829",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "17",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6190403,
+          46.8507145
+        ]
+      },
+      "id": "node/2755886829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886831",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "17",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6275006,
+          46.8399941
+        ]
+      },
+      "id": "node/2755886831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886836",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "17",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6267829,
+          46.8422208
+        ]
+      },
+      "id": "node/2755886836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886841",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "17",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6254753,
+          46.8436732
+        ]
+      },
+      "id": "node/2755886841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886845",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "17",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6281165,
+          46.8428498
+        ]
+      },
+      "id": "node/2755886845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886846",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "17",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6286659,
+          46.8424838
+        ]
+      },
+      "id": "node/2755886846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886847",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "17",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6289623,
+          46.8348106
+        ]
+      },
+      "id": "node/2755886847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886856",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "18",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6261154,
+          46.8405194
+        ]
+      },
+      "id": "node/2755886856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886857",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "18",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6278519,
+          46.8418426
+        ]
+      },
+      "id": "node/2755886857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886862",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "18",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6261347,
+          46.8429339
+        ]
+      },
+      "id": "node/2755886862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886864",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "18",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6355329,
+          46.8274004
+        ]
+      },
+      "id": "node/2755886864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886872",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "19",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6175497,
+          46.8516487
+        ]
+      },
+      "id": "node/2755886872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886874",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "19",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6260368,
+          46.8401724
+        ]
+      },
+      "id": "node/2755886874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886875",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "19",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6273504,
+          46.8400315
+        ]
+      },
+      "id": "node/2755886875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886879",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "19",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6268947,
+          46.8424386
+        ]
+      },
+      "id": "node/2755886879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886882",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "19",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6250351,
+          46.8438021
+        ]
+      },
+      "id": "node/2755886882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886886",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "19",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6281784,
+          46.8427733
+        ]
+      },
+      "id": "node/2755886886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886887",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "19",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6288817,
+          46.8424447
+        ]
+      },
+      "id": "node/2755886887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886888",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "19",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6282657,
+          46.8350814
+        ]
+      },
+      "id": "node/2755886888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886904",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6232877,
+          46.8493613
+        ]
+      },
+      "id": "node/2755886904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886929",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6263776,
+          46.8435732
+        ]
+      },
+      "id": "node/2755886929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886933",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Gaisjochweg - Via Gaisjoch",
+        "addr:street:de": "Gaisjochweg",
+        "addr:street:it": "Via Gaisjoch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6282232,
+          46.8431901
+        ]
+      },
+      "id": "node/2755886933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886941",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6212667,
+          46.8510057
+        ]
+      },
+      "id": "node/2755886941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886947",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6283805,
+          46.8397579
+        ]
+      },
+      "id": "node/2755886947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886950",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.628117,
+          46.8420998
+        ]
+      },
+      "id": "node/2755886950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886959",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6264215,
+          46.841396
+        ]
+      },
+      "id": "node/2755886959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886970",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6253564,
+          46.8430394
+        ]
+      },
+      "id": "node/2755886970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755886978",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6273185,
+          46.8421567
+        ]
+      },
+      "id": "node/2755886978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887042",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "20",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6276359,
+          46.8417356
+        ]
+      },
+      "id": "node/2755887042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887046",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "20",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6262969,
+          46.8428656
+        ]
+      },
+      "id": "node/2755887046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887048",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "20",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6355065,
+          46.8274648
+        ]
+      },
+      "id": "node/2755887048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887056",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "21",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6050063,
+          46.8480094
+        ]
+      },
+      "id": "node/2755887056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887060",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "21",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6269102,
+          46.8431174
+        ]
+      },
+      "id": "node/2755887060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887066",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "21",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6284732,
+          46.842689
+        ]
+      },
+      "id": "node/2755887066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887067",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "21",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6287599,
+          46.8422466
+        ]
+      },
+      "id": "node/2755887067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887068",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "21",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6289426,
+          46.8353892
+        ]
+      },
+      "id": "node/2755887068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887074",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "22",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.627199,
+          46.842815
+        ]
+      },
+      "id": "node/2755887074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887078",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "22",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6263209,
+          46.842268
+        ]
+      },
+      "id": "node/2755887078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887080",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "22",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6346475,
+          46.8282106
+        ]
+      },
+      "id": "node/2755887080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887086",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "23",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.600849,
+          46.8436584
+        ]
+      },
+      "id": "node/2755887086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887090",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "23",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6269867,
+          46.8436047
+        ]
+      },
+      "id": "node/2755887090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887096",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "23",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6288197,
+          46.8351788
+        ]
+      },
+      "id": "node/2755887096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887101",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "24",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6255125,
+          46.8415585
+        ]
+      },
+      "id": "node/2755887101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887102",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "24",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6273023,
+          46.8436339
+        ]
+      },
+      "id": "node/2755887102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887106",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "24",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.626477,
+          46.8421686
+        ]
+      },
+      "id": "node/2755887106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887108",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "24",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6354347,
+          46.8286325
+        ]
+      },
+      "id": "node/2755887108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887119",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "25",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6270154,
+          46.8437684
+        ]
+      },
+      "id": "node/2755887119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887124",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "25",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6280359,
+          46.8352765
+        ]
+      },
+      "id": "node/2755887124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887128",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "26",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6255522,
+          46.8420418
+        ]
+      },
+      "id": "node/2755887128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887132",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "26",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6265619,
+          46.8419791
+        ]
+      },
+      "id": "node/2755887132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887134",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "26",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6323954,
+          46.8304632
+        ]
+      },
+      "id": "node/2755887134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887142",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "27",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6269203,
+          46.8438522
+        ]
+      },
+      "id": "node/2755887142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887147",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "27",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.626122,
+          46.8355089
+        ]
+      },
+      "id": "node/2755887147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887153",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "28",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6252845,
+          46.8418341
+        ]
+      },
+      "id": "node/2755887153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887162",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "28",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6295262,
+          46.8351354
+        ]
+      },
+      "id": "node/2755887162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887189",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "29",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6267925,
+          46.843915
+        ]
+      },
+      "id": "node/2755887189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887194",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "29",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6259162,
+          46.8354289
+        ]
+      },
+      "id": "node/2755887194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887199",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6229024,
+          46.8501573
+        ]
+      },
+      "id": "node/2755887199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887203",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6262343,
+          46.8435423
+        ]
+      },
+      "id": "node/2755887203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887207",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Gaisjochweg - Via Gaisjoch",
+        "addr:street:de": "Gaisjochweg",
+        "addr:street:it": "Via Gaisjoch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6285207,
+          46.8430163
+        ]
+      },
+      "id": "node/2755887207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887216",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6212202,
+          46.8497021
+        ]
+      },
+      "id": "node/2755887216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887220",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6269297,
+          46.8390481
+        ]
+      },
+      "id": "node/2755887220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887224",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6284476,
+          46.8420917
+        ]
+      },
+      "id": "node/2755887224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887231",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6266126,
+          46.8416261
+        ]
+      },
+      "id": "node/2755887231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887240",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck",
+        "name": "Pension Sonneck",
+        "tourism": "guest_house",
+        "website": "https://www.tasa.it/pension-sonneck.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6248744,
+          46.8431346
+        ]
+      },
+      "id": "node/2755887240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887245",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6274151,
+          46.8430435
+        ]
+      },
+      "id": "node/2755887245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887246",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6278962,
+          46.8425663
+        ]
+      },
+      "id": "node/2755887246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887247",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "3",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6382783,
+          46.8232956
+        ]
+      },
+      "id": "node/2755887247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887262",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "30",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6311578,
+          46.8384409
+        ]
+      },
+      "id": "node/2755887262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887267",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "31",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6240827,
+          46.8431838
+        ]
+      },
+      "id": "node/2755887267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887276",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "32",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6254055,
+          46.8418961
+        ]
+      },
+      "id": "node/2755887276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887280",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "32",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6310509,
+          46.8384434
+        ]
+      },
+      "id": "node/2755887280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887288",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "33",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6270556,
+          46.8443498
+        ]
+      },
+      "id": "node/2755887288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887295",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "34",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6253341,
+          46.8421251
+        ]
+      },
+      "id": "node/2755887295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887296",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Meransen - Maranza",
+        "addr:hamlet:de": "Meransen",
+        "addr:hamlet:it": "Maranza",
+        "addr:housenumber": "34",
+        "addr:postcode": "39037",
+        "addr:street": "Platzerstraße - Via Platzer",
+        "addr:street:de": "Platzerstraße",
+        "addr:street:it": "Via Platzer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6578185,
+          46.820394
+        ]
+      },
+      "id": "node/2755887296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887300",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "34",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6295818,
+          46.8355356
+        ]
+      },
+      "id": "node/2755887300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887304",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "35",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6237919,
+          46.8434995
+        ]
+      },
+      "id": "node/2755887304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887306",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "35",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6274782,
+          46.845208
+        ]
+      },
+      "id": "node/2755887306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887313",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Meransen - Maranza",
+        "addr:hamlet:de": "Meransen",
+        "addr:hamlet:it": "Maranza",
+        "addr:housenumber": "36",
+        "addr:postcode": "39037",
+        "addr:street": "Platzerstraße - Via Platzer",
+        "addr:street:de": "Platzerstraße",
+        "addr:street:it": "Via Platzer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6580107,
+          46.8203224
+        ]
+      },
+      "id": "node/2755887313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887316",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "36",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6292142,
+          46.8357713
+        ]
+      },
+      "id": "node/2755887316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887321",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "37",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.627411,
+          46.8452939
+        ]
+      },
+      "id": "node/2755887321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887327",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "38",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6248748,
+          46.8424962
+        ]
+      },
+      "id": "node/2755887327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887338",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "39",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6290935,
+          46.8451519
+        ]
+      },
+      "id": "node/2755887338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887360",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6237928,
+          46.8493442
+        ]
+      },
+      "id": "node/2755887360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887364",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6264071,
+          46.8437855
+        ]
+      },
+      "id": "node/2755887364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887366",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Gaisjochweg - Via Gaisjoch",
+        "addr:street:de": "Gaisjochweg",
+        "addr:street:it": "Via Gaisjoch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6287053,
+          46.8429071
+        ]
+      },
+      "id": "node/2755887366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887378",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6273454,
+          46.8390859
+        ]
+      },
+      "id": "node/2755887378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887380",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6281708,
+          46.8398841
+        ]
+      },
+      "id": "node/2755887380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887383",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6284805,
+          46.8420263
+        ]
+      },
+      "id": "node/2755887383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887392",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6268092,
+          46.8412272
+        ]
+      },
+      "id": "node/2755887392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887404",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6255498,
+          46.8429179
+        ]
+      },
+      "id": "node/2755887404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887408",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6280871,
+          46.8426204
+        ]
+      },
+      "id": "node/2755887408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887409",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6274337,
+          46.8422022
+        ]
+      },
+      "id": "node/2755887409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887410",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6393913,
+          46.823629
+        ]
+      },
+      "id": "node/2755887410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887419",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "40",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6245203,
+          46.8436002
+        ]
+      },
+      "id": "node/2755887419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887425",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "41",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6291409,
+          46.8452297
+        ]
+      },
+      "id": "node/2755887425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887437",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "43",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6294534,
+          46.845296
+        ]
+      },
+      "id": "node/2755887437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887444",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "45",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6292707,
+          46.8457763
+        ]
+      },
+      "id": "node/2755887444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887450",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "47",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6303763,
+          46.8455169
+        ]
+      },
+      "id": "node/2755887450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887456",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "49",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6304045,
+          46.8452823
+        ]
+      },
+      "id": "node/2755887456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887460",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6230942,
+          46.8511548
+        ]
+      },
+      "id": "node/2755887460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887464",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6262871,
+          46.8437593
+        ]
+      },
+      "id": "node/2755887464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887466",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Gaisjochweg - Via Gaisjoch",
+        "addr:street:de": "Gaisjochweg",
+        "addr:street:it": "Via Gaisjoch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6288467,
+          46.8428583
+        ]
+      },
+      "id": "node/2755887466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887472",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6226075,
+          46.8493105
+        ]
+      },
+      "id": "node/2755887472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887477",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6208934,
+          46.849079
+        ]
+      },
+      "id": "node/2755887477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887482",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6267902,
+          46.8393154
+        ]
+      },
+      "id": "node/2755887482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887485",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6270112,
+          46.8398233
+        ]
+      },
+      "id": "node/2755887485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887488",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6286395,
+          46.8419313
+        ]
+      },
+      "id": "node/2755887488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887496",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6265416,
+          46.8416674
+        ]
+      },
+      "id": "node/2755887496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887504",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6251607,
+          46.843147
+        ]
+      },
+      "id": "node/2755887504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887507",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.627546,
+          46.8429476
+        ]
+      },
+      "id": "node/2755887507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887509",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "5",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6318045,
+          46.8278745
+        ]
+      },
+      "id": "node/2755887509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887542",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6234252,
+          46.8503073
+        ]
+      },
+      "id": "node/2755887542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887547",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6261709,
+          46.8437357
+        ]
+      },
+      "id": "node/2755887547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887550",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Gaisjochweg - Via Gaisjoch",
+        "addr:street:de": "Gaisjochweg",
+        "addr:street:it": "Via Gaisjoch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6289679,
+          46.8428112
+        ]
+      },
+      "id": "node/2755887550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887597",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6210944,
+          46.85112
+        ]
+      },
+      "id": "node/2755887597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887606",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6270164,
+          46.8393376
+        ]
+      },
+      "id": "node/2755887606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887620",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6281393,
+          46.8401356
+        ]
+      },
+      "id": "node/2755887620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887636",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6288867,
+          46.8420512
+        ]
+      },
+      "id": "node/2755887636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887672",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.627024,
+          46.8412132
+        ]
+      },
+      "id": "node/2755887672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887684",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6258025,
+          46.8428368
+        ]
+      },
+      "id": "node/2755887684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887689",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6282058,
+          46.8425876
+        ]
+      },
+      "id": "node/2755887689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887691",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6285304,
+          46.8421968
+        ]
+      },
+      "id": "node/2755887691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887692",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6392697,
+          46.8243795
+        ]
+      },
+      "id": "node/2755887692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887698",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "6a",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6232025,
+          46.8487211
+        ]
+      },
+      "id": "node/2755887698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887720",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6232442,
+          46.8508542
+        ]
+      },
+      "id": "node/2755887720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887723",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6260386,
+          46.843694
+        ]
+      },
+      "id": "node/2755887723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887725",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Gaisjochweg - Via Gaisjoch",
+        "addr:street:de": "Gaisjochweg",
+        "addr:street:it": "Via Gaisjoch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6290855,
+          46.8427276
+        ]
+      },
+      "id": "node/2755887725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887733",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6176785,
+          46.8482628
+        ]
+      },
+      "id": "node/2755887733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887737",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6271607,
+          46.8398417
+        ]
+      },
+      "id": "node/2755887737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887739",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6289353,
+          46.8416847
+        ]
+      },
+      "id": "node/2755887739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887748",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6266747,
+          46.8417133
+        ]
+      },
+      "id": "node/2755887748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887767",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6250808,
+          46.8432392
+        ]
+      },
+      "id": "node/2755887767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887773",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.627585,
+          46.8430524
+        ]
+      },
+      "id": "node/2755887773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887774",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "7",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6356592,
+          46.8265242
+        ]
+      },
+      "id": "node/2755887774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887799",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6249288,
+          46.8500381
+        ]
+      },
+      "id": "node/2755887799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887804",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.626061,
+          46.8439171
+        ]
+      },
+      "id": "node/2755887804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887809",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Meransen - Maranza",
+        "addr:hamlet:de": "Meransen",
+        "addr:hamlet:it": "Maranza",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Großbergstraße - Via Grossberg",
+        "addr:street:de": "Großbergstraße",
+        "addr:street:it": "Via Grossberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6485716,
+          46.8208758
+        ]
+      },
+      "id": "node/2755887809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887816",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6192346,
+          46.8519761
+        ]
+      },
+      "id": "node/2755887816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887819",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6278447,
+          46.8401682
+        ]
+      },
+      "id": "node/2755887819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887821",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6293903,
+          46.8416305
+        ]
+      },
+      "id": "node/2755887821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887828",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6267856,
+          46.8414662
+        ]
+      },
+      "id": "node/2755887828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887837",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6259439,
+          46.8427594
+        ]
+      },
+      "id": "node/2755887837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887841",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "8",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6382713,
+          46.8240029
+        ]
+      },
+      "id": "node/2755887841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887860",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Birchwaldweg - Via Birchwald",
+        "addr:street:de": "Birchwaldweg",
+        "addr:street:it": "Via Birchwald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6246334,
+          46.8509473
+        ]
+      },
+      "id": "node/2755887860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887865",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Enzianweg - Via delle Genziane",
+        "addr:street:de": "Enzianweg",
+        "addr:street:it": "Via delle Genziane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6259371,
+          46.843891
+        ]
+      },
+      "id": "node/2755887865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887868",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Meransen - Maranza",
+        "addr:hamlet:de": "Meransen",
+        "addr:hamlet:it": "Maranza",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Großbergstraße - Via Grossberg",
+        "addr:street:de": "Großbergstraße",
+        "addr:street:it": "Via Grossberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6485095,
+          46.821089
+        ]
+      },
+      "id": "node/2755887868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887871",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Hinterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6195607,
+          46.8557229
+        ]
+      },
+      "id": "node/2755887871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887876",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6202722,
+          46.8460141
+        ]
+      },
+      "id": "node/2755887876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887878",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Konrad-Von-Hobe-Straße - Via Konrad Von Hobe",
+        "addr:street:de": "Konrad-Von-Hobe-Straße",
+        "addr:street:it": "Via Konrad Von Hobe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6279022,
+          46.8399606
+        ]
+      },
+      "id": "node/2755887878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887881",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Leitenweg - Via Leiten",
+        "addr:street:de": "Leitenweg",
+        "addr:street:it": "Via Leiten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6291538,
+          46.8419556
+        ]
+      },
+      "id": "node/2755887881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887888",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6266301,
+          46.8417412
+        ]
+      },
+      "id": "node/2755887888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887894",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Sonneckstraße - Via Sonneck",
+        "addr:street:de": "Sonneckstraße",
+        "addr:street:it": "Via Sonneck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6254421,
+          46.8433074
+        ]
+      },
+      "id": "node/2755887894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887899",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Tannenweg - Via degli Abeti",
+        "addr:street:de": "Tannenweg",
+        "addr:street:it": "Via degli Abeti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6276211,
+          46.8430426
+        ]
+      },
+      "id": "node/2755887899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887900",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "addr:street:de": "Tasaweg",
+        "addr:street:it": "Via Tasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6282524,
+          46.8424902
+        ]
+      },
+      "id": "node/2755887900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755887901",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "9",
+        "addr:postcode": "39037",
+        "addr:street": "Unterlände"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6311347,
+          46.83103
+        ]
+      },
+      "id": "node/2755887901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654890470",
+        "addr:city": "Vals - Valles",
+        "addr:housenumber": "1",
+        "addr:street": "Gaisjochweg",
+        "bar": "yes",
+        "building": "hotel",
+        "building:levels": "4",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "ABIS",
+        "operator": "Fam. Erlacher",
+        "start_date": "2021-05-21",
+        "tourism": "hotel",
+        "website": "https://www.hotelabis.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6278825,
+          46.8432247
+        ]
+      },
+      "id": "node/3654890470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936145647",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal",
+        "amenity": "ski_rental",
+        "level": "-1",
+        "name": "Skirental Leitner",
+        "website": "https://www.die-muehle.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6212246,
+          46.8510391
+        ]
+      },
+      "id": "node/3936145647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936145648",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "4",
+        "addr:postcode": "39037",
+        "addr:street": "Jochtalstraße - Via Jochtal",
+        "addr:street:de": "Jochtalstraße",
+        "addr:street:it": "Via Jochtal",
+        "amenity": "ski_school",
+        "level": "-1",
+        "name": "Skischule Jochtal",
+        "website": "https://www.skischule-jochtal.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6212901,
+          46.8510907
+        ]
+      },
+      "id": "node/3936145648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5275510113",
+        "addr:city": "Vals",
+        "addr:country": "IT",
+        "addr:housenumber": "6",
+        "addr:postcode": "39037",
+        "addr:street": "Tasaweg - Via Tasa",
+        "amenity": "fire_station",
+        "email": "ff.vals@lfvbz.org",
+        "name": "Freiwillige Feuerwehr Vals",
+        "phone": "+39 0472 541055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.628529,
+          46.8421542
+        ]
+      },
+      "id": "node/5275510113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5463572403",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "2",
+        "addr:postcode": "39037",
+        "addr:street": "Kirchdorfstraße - Via della Chiesa",
+        "addr:street:de": "Kirchdorfstraße",
+        "addr:street:it": "Via della Chiesa",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Huberhof",
+        "payment:bancomat": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "payment:girocard": "no",
+        "payment:maestro": "no",
+        "tourism": "apartment",
+        "website": "http://www.huberhof-vals.it/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6279927,
+          46.8388005
+        ]
+      },
+      "id": "node/5463572403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6327876948",
+        "addr:city": "Mühlbach - Rio di Pusteria",
+        "addr:city:de": "Mühlbach",
+        "addr:city:it": "Rio di Pusteria",
+        "addr:hamlet": "Vals - Valles",
+        "addr:hamlet:de": "Vals",
+        "addr:hamlet:it": "Valles",
+        "addr:housenumber": "15",
+        "addr:postcode": "39037",
+        "addr:street": "Pichlstraße - Via Pichl",
+        "addr:street:de": "Pichlstraße",
+        "addr:street:it": "Via Pichl",
+        "name": "Market Steger",
+        "opening_hours": "Mo-Fr 09:00-12:00,15:00-18:00; Sa 08:00-12:00; PH,Su closed",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6266298,
+          46.8419133
+        ]
+      },
+      "id": "node/6327876948"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Herbergsingen Vals</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { height: 100vh; width: 100%; } /* Vollbild */
+        
+        /* Design für die Hausnummern */ 
+        .haus-label {
+            background: rgba(255,255,255,0.8);
+            border: 1px solid #666;
+            border-radius: 50%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 10px;
+            padding: 1px;
+            min-width: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script>
+    // --- KONFIGURATION ---
+    // Hier deine Daten von Supabase einfügen!
+    const SUPABASE_URL = 'https://cjzrrvdcyqbgavqkfmjv.supabase.co';
+    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNqenJydmRjeXFiZ2F2cWtmbWp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5MDcwMTcsImV4cCI6MjA4MzQ4MzAxN30.UquzNqUVLr0dCqiN7XxoB7hO7_Vsz2zbgcIgWskdVc4';
+    
+    // Gruppe festlegen (könnte man später per Eingabe machen)
+    const MY_GROUP = "Gruppe 1"; 
+
+    // Supabase verbinden
+    const { createClient } = supabase;
+    const db = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    // --- KARTE INITIALISIEREN ---
+    // Startpunkt Vals
+    var map = L.map('map').setView([46.843, 11.625], 16);
+
+    // Südtirol BaseMap laden
+    //L.tileLayer('https://geoservices.buergernetz.bz.it/mapproxy/wmts/P_BZ_BASEMAP_COLOR/GLOBAL_WEBMERCATOR/{z}/{x}/{y}.png', {
+    //    attribution: 'Autonome Provinz Bozen',
+    //    maxZoom: 20
+    //}).addTo(map);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+    // Speicher für die Karten-Layer, damit wir die Farbe ändern können
+    var houseLayers = {};
+
+    // --- FUNKTIONEN ---
+
+    // Farbe je nach Status
+    function getColor(status) {
+        switch(status) {
+            case 'green': return '#2ecc71'; // Grün (Erledigt)
+            case 'yellow': return '#f1c40f'; // Gelb (Gerade dort)
+            case 'red': return '#e74c3c'; // Rot (Abgewiesen)
+            case 'blue': return '#3498db'; // Blau (Später kommen)
+            default: return 'gray'; // Unbesucht
+        }
+    }
+
+    // Status speichern (In Datenbank senden)
+    async function setStatus(houseId, newStatus, comment) {
+        // 1. In Datenbank schreiben
+        const { error } = await db
+            .from('visits')
+            .upsert({ 
+                house_id: String(houseId), 
+                status: newStatus,
+                group_name: MY_GROUP,
+                created_at: new Date() // Zeitstempel aktualisieren
+            }, { onConflict: 'house_id' }); // Überschreibt alten Status, falls vorhanden
+
+        if (error) alert("Fehler beim Speichern: " + error.message);
+        
+        // Karte schließen
+        map.closePopup();
+    }
+
+    // --- DATEN LADEN ---
+
+    // 1. Häuser laden (lokale Datei)
+    fetch('vals.json')
+        .then(res => res.json())
+        .then(data => {
+            L.geoJSON(data, {
+                pointToLayer: function (feature, latlng) {
+                    var id = feature.id; // Die eindeutige ID von OSM
+                    var nr = feature.properties["addr:housenumber"] || "?";
+                    
+                    // Kreis zeichnen
+                    var marker = L.circleMarker(latlng, {
+                        radius: 10,
+                        fillColor: 'gray', // Startfarbe
+                        color: "#333",
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    });
+
+                    // Nummer anzeigen
+                    marker.bindTooltip(nr, { permanent: true, direction: "center", className: "haus-label" });
+                    
+                    // Popup Interaktion
+                    var popupContent = `
+                        <b>Hausnr: ${nr}</b><br><br>
+                        <button onclick="setStatus('${id}', 'green')" style="background:#2ecc71;padding:10px;border:none;">✅ Fertig</button>
+                        <button onclick="setStatus('${id}', 'red')" style="background:#e74c3c;padding:10px;border:none;">❌ Nein</button><br><br>
+                        <button onclick="setStatus('${id}', 'blue')" style="background:#3498db;padding:10px;border:none;">🔵 Später</button>
+                        <button onclick="setStatus('${id}', 'yellow')" style="background:#f1c40f;padding:10px;border:none;">⏳ Sind dran</button>
+                    `;
+                    marker.bindPopup(popupContent);
+
+                    // Marker speichern, damit wir ihn später färben können
+                    houseLayers[id] = marker;
+                    
+                    return marker;
+                }
+            }).addTo(map);
+
+            // Wenn Häuser geladen sind -> Jetzt aktuellen Status aus DB holen
+            loadInitialStatus();
+        });
+
+    // 2. Bestehende Status aus DB laden (beim Start)
+    async function loadInitialStatus() {
+        let { data: visits, error } = await db.from('visits').select('*');
+        if (visits) {
+            visits.forEach(visit => {
+                updateMapColor(visit.house_id, visit.status);
+            });
+        }
+    }
+
+    // 3. LIVE Updates (Realtime!)
+    db.channel('custom-all-channel')
+    .on(
+        'postgres_changes',
+        { event: '*', schema: 'public', table: 'visits' },
+        (payload) => {
+            // Wenn sich was ändert, Farbe sofort ändern
+            console.log('Update empfangen!', payload);
+            if (payload.new) {
+                updateMapColor(payload.new.house_id, payload.new.status);
+            }
+        }
+    )
+    .subscribe();
+
+    // Hilfsfunktion: Farbe auf Karte ändern
+    function updateMapColor(houseId, status) {
+        var layer = houseLayers[houseId];
+        if (layer) {
+            layer.setStyle({ fillColor: getColor(status) });
+        }
+    }
+
+</script>
+</body>
+</html>
